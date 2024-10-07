@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .championListBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 15% 0 15%;
+    }
+
+    h1 {
+        font-family: 'KoPubWorldDotum';
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .backgroundBox1 {
+        margin: 0 0 60px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .backgroundBox2 {
+        background-position: top;
+        background-size: cover;
+        min-height: 88vh;
+        position: relative;
+    }
+
+    .background3 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-attachment: local;
+        background-color: #0a0a0c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: opacity 0.4s ease;
+        width: 100%;
+        z-index: -10;
+    }
+
+    .backgroundContent {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 65%, rgba(10, 10, 12, 0.1) 70%, #0a0a0c 90%);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 35px;
+        padding-top: 80%;
+        text-align: center;
+        width: 100%;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+
+    .backgroundContent img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .lineImg {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .backgroundContent h3 {
+        font-weight: 500;
+        font-size: 100px;
+        color: #937341;
+        letter-spacing: 0.1em;
+        padding-top: 20px;
+    }
+
+    .header {
+        background-color: #010a13;
+        height: 10px;
+    }
+
+    .mainBox {
+        width: 50%;
+    }
+
+    .mainTitle {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}

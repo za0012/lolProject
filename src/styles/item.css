@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mainBox {
+        width: 50%;
+    }
+
+    .itemListBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 100px 15% 0 15%;
+    }
+
+    .item {
+        display: block;
+        background-color: #0f1a18;
+        padding: 8px;
+        border: 4px ridge #99814d;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .itemListBox h1 {
+        margin-top: 8px;
+        display: inline-block;
+        font-size: 18px;
+        color: #e6ddc9;
+    }
+
+    .middleLine {
+        margin: 8px 0 8px;
+        height: 2px;
+        background-color: #45432a;
+    }
+
+    .caption {
+        color: #a09b8c;
+        font-size: 15px;
+    }
+
+    .leftEx {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .leftBox{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .mainTitle{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    .defence::after {
+        background-image: url('../img/defence.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .mana::after {
+        background-image: url('../img/mana.png');
+        background-size: 17px 17px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 17px;
+        width: 17px;
+        margin: 0 3px 0 8px;
+        padding: 3px 3px 0 0;
+        top: 3px;
+    }
+
+    .heart::after {
+        background-image: url('../img/heart.png');
+        background-size: 17px 17px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 17px;
+        width: 17px;
+        margin: 0 3px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .attack::after {
+        background-image: url('../img/strong.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .magic::after {
+        background-image: url('../img/magic.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .strong::after {
+        background-image: url('../img/strangth.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .time::after {
+        background-image: url('../img/time.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .atspeed::after {
+        background-image: url('../img/attackspeed.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .speed::after {
+        background-image: url('../img/speed.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .baba::after {
+        background-image: url('../img/baba.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .mama::after {
+        background-image: url('../img/mama.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+    .blood::after {
+        background-image: url('../img/blood.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+    .critical::after {
+        background-image: url('../img/cretical.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+    .decri::after {
+        background-image: url('../img/baba.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+    .morecri::after {
+        background-image: url('../img/criticalMore.png');
+        background-size: 15px 15px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin: 0 0 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+    .moreheart::after {
+        background-image: url('../img/moreheart.png');
+        background-size: 17px 17px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 17px;
+        width: 17px;
+        margin: 0 3px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .magicDefence::after {
+        background-image: url('../img/magicDefence.png');
+        background-size: 17px 17px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 17px;
+        width: 17px;
+        margin: 0 3px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .Adaptive::after {
+        background-image: url('../img/Adaptive.png');
+        background-size: 17px 17px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 17px;
+        width: 17px;
+        margin: 0 0px 0 8px;
+        padding: 3px 0 0 0;
+        top: 4px;
+    }
+
+    .gold::before {
+        background-image: url('../img/gold.png');
+        background-size: 20px 20px;
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        margin: 0 5px 0 0px;
+        top: 4px;
+    }
+}
